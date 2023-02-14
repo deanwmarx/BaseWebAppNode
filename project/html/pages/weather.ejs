@@ -9,18 +9,21 @@
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
     <% include ../helpers/navbar %>
-    <h1>Hello World</h1>
+    <h1>Weather</h1>
   </div>
 
-  <p id="demo">
-    This is me testing out a lil html file
-  </p>
+  <input type="text" class="search" placeholder="Enter city name">
+  <button type="button" onClick="searchWeather()">Search</button>
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
-  </button>
+  <div class="error-message"></div>
 
-  <div id="doge-image"/>
+  <div class="city">
+
+  </div>
+
+  <div class="temp">
+    
+  </div>
 
 </body>
 
